@@ -1,0 +1,46 @@
+/* Global */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Cabeçalho */
+
+.title {
+  font-family: "Pacifico", cursive;
+}
+
+.nav-item .nav-link.active {
+  border: 1px solid #c7c8c9;
+  background-color: transparent;
+  color: #c7c8c9;
+}
+
+#nav-titles button.active {
+  background-color: #212529;
+  color: #fff;
+}
+
+#nav-titles button {
+  color: #000;
+  border: 1px solid #c7c8c9;
+}
+
+/* Formulario */
+
+#contact form textarea {
+  resize: none;
+}
+
+/* Footer */
+
+footer {
+  color: #fff;
+}
+
+/* Media query */
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 2rem;
+  }
+}
